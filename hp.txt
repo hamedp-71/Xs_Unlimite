@@ -1,0 +1,88 @@
+//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
+#profile-web-page-url: @hamedvpns
+{
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "hamedp71 ShadowSocks2022 § 33710 3",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 33710,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "MjFjNzE0NzRjZjU1NGJlOGE3NmI0OWZlMDA2OTdjOTA=:ODA3NDc0MjA5NmM0NGEyZjgzZTZlZWE0ZTQ2YmViMDk=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "hamedp71 ShadowTLS § 443 3",
+      "detour": "drhystuichdfy.samanidempire.org ShadowTLS § 443 3_shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "MjFjNzE0NzRjZjU1NGJlOGE3NmI0OWZlMDA2OTdjOTA=:ODA3NDc0MjA5NmM0NGEyZjgzZTZlZWE0ZTQ2YmViMDk=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "hamedp71 § 443 3_shadowtls-out §hide§",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 443,
+      "version": 3,
+      "password": "21c71474-cf55-4be8-a76b-49fe00697c90",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.terredeshommes.nl",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "hamedp71 WireGuard § 25807 3",
+      "local_address": "10.90.0.3/32",
+      "private_key": "YNkuqlDEiTC6vD8apHzp3x3NkEUrKz3XCwgZJa8sE2M=",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 25807,
+      "peer_public_key": "H94pau4wo5RK99RG10bJk8+lkJS0CDYpZjQ8SWPDPkU=",
+      "pre_shared_key": "BUDHP/Zt84VZSgS3rv6JRz/FY/Ldx4cGMePCyi8VSCw=",
+      "mtu": 1380,
+      "fake_packets": "0-0"
+    },
+    {
+      "type": "tuic",
+      "tag": "hamedp71 TUIC § 41053 3",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 41053,
+      "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": true,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "drhystuichdfy.samanidempire.org",
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hamedp71 Hysteria2 § 20335 3",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 20335,
+      "obfs": {
+        "type": "salamander",
+        "password": "U1wBrYQyFm"
+      },
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "tls": {
+        "enabled": true,
+        "server_name": "drhystuichdfy.samanidempire.org",
+        "alpn": "h3"
+      }
+    }
+  ]
+}
