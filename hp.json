@@ -46,8 +46,7 @@
       "pre_shared_key": "BUDHP/Zt84VZSgS3rv6JRz/FY/Ldx4cGMePCyi8VSCw=",
       "mtu": 1280,
       "domain_strategy": "ipv4_only",
-      "reserved": [0, 0, 0],
-      "endpoint": "188.114.97.157:1014"
+      "reserved": [0, 0, 0]
     },
     {
       "type": "tuic",
