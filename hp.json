@@ -14,7 +14,7 @@
       "tag": "hamedp71-ShadowTLS",
       "detour": "drhystuichdfy.samanidempire.org ShadowTLS § 443 3_shadowtls-out §hide§",
       "server": "",
-      "server_port": 0,
+      "server_port": 33710,
       "method": "2022-blake3-aes-256-gcm",
       "password": "MjFjNzE0NzRjZjU1NGJlOGE3NmI0OWZlMDA2OTdjOTA=:ODA3NDc0MjA5NmM0NGEyZjgzZTZlZWE0ZTQ2YmViMDk=",
       "udp_over_tcp": true
