@@ -42,7 +42,7 @@
       "private_key": "YNkuqlDEiTC6vD8apHzp3x3NkEUrKz3XCwgZJa8sE2M=",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 25807,
-      "endpoint": 188.114.97.157:1014,
+      "endpoint": "188.114.97.157:1014",
       "peer_public_key": "H94pau4wo5RK99RG10bJk8+lkJS0CDYpZjQ8SWPDPkU=",
       "pre_shared_key": "BUDHP/Zt84VZSgS3rv6JRz/FY/Ldx4cGMePCyi8VSCw=",
       "mtu": 1380,
@@ -62,7 +62,7 @@
       "tls": {
         "enabled": true,
         "server_name": "drhystuichdfy.samanidempire.org",
-        "alpn": "h3"
+        "alpn": ["h3"]
       }
     },
     {
@@ -70,6 +70,8 @@
       "tag": "hamedp71-Hysteria2",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 20335,
+      "up_mbps": 100,
+      "down_mbps": 100,
       "obfs": {
         "type": "salamander",
         "password": "U1wBrYQyFm"
@@ -78,7 +80,9 @@
       "tls": {
         "enabled": true,
         "server_name": "drhystuichdfy.samanidempire.org",
-        "alpn": "h3"
+        "alpn": ["h3"],
+        "insecure": false,
+        "disable_sni": false
       }
     }
   ]
