@@ -10,42 +10,16 @@
       "udp_over_tcp": true
     },
     {
-      "type": "shadowsocks",
-      "tag": "hamedp71 ShadowTLS",
-      "detour": "hamedp71 ShadowSocks2022",
-      "server": "",
-      "server_port": 33710,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "MjFjNzE0NzRjZjU1NGJlOGE3NmI0OWZlMDA2OTdjOTA=:ODA3NDc0MjA5NmM0NGEyZjgzZTZlZWE0ZTQ2YmViMDk=",
-      "udp_over_tcp": true
-    },
-    {
-      "type": "shadowtls",
-      "tag": "hamedp71-shadowtls-out",
-      "server": "hys10.afsharidempire.uk",
-      "server_port": 443,
-      "version": 3,
-      "password": "1bd9d418-335e-42f0-a83c-257f3917d773",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "wireguard",
-      "tag": "🇩🇪 WG - hamedp71",
-      "server": "94.242.50.185",
-      "server_port": 443,
-      "local_address": ["100.80.234.177/32"],
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peer_public_key": "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc=",
-      "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+      "tag": "🇮🇷 Warp - hamedp71",
+      "local_address": ["172.16.0.2/32"],
+      "private_key": "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU=",
+      "server": "188.114.97.127",
+      "server_port": 7152,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1280,
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "prefer_ipv4",
+      "reserved": [0, 0, 0]
     },
     {
       "type": "tuic",
