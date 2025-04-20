@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "hamedp71 - ShadowSocks",
+      "tag": "hamedp71 - SS",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 33710,
       "method": "2022-blake3-aes-256-gcm",
