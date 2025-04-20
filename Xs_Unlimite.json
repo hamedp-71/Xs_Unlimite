@@ -19,7 +19,7 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1316,
       "reserved": [51, 87, 76],
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "prefer_ipv4",
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-10",
@@ -36,7 +36,7 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1316,
       "reserved": [51, 87, 76],
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "prefer_ipv4",
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-10",
