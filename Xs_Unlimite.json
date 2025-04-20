@@ -39,6 +39,19 @@
       }
     },
     {
+      "type": "wireguard",
+      "tag": "🇩🇪 hamedp71-WG",
+      "local_address": ["100.80.234.177/32"],
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "server": "94.242.50.185",
+      "server_port": 443,
+      "peer_public_key": "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc=",
+      "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+      "mtu": 1280,
+      "reserved": [0, 0, 0],
+      "domain_strategy": "prefer_ipv4"
+    },
+    {
       "type": "hysteria2",
       "tag": "hamedp71 - Hysteria2",
       "server": "drhystuichdfy.samanidempire.org",
