@@ -38,7 +38,7 @@
     {
       "type": "wireguard",
       "tag": "🇮🇷 Warp - IPv4-1",
-      "local_address": ["172.16.0.2/32", "2001:db8:1::1"],
+      "local_address": ["172.16.0.2/32"],
       "private_key": "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU=",
       "server": "188.114.97.126",
       "server_port": 7152,
