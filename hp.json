@@ -13,8 +13,8 @@
       "type": "shadowsocks",
       "tag": "hamedp71 ShadowTLS",
       "detour": "hamedp71 ShadowSocks2022",
-      "server": "drhystuichdfy.samanidempire.org",
-      "server_port": 443,
+      "server": "",
+      "server_port": 0,
       "method": "2022-blake3-aes-256-gcm",
       "password": "MjFjNzE0NzRjZjU1NGJlOGE3NmI0OWZlMDA2OTdjOTA=:ODA3NDc0MjA5NmM0NGEyZjgzZTZlZWE0ZTQ2YmViMDk=",
       "udp_over_tcp": true
@@ -28,7 +28,7 @@
       "password": "21c71474-cf55-4be8-a76b-49fe00697c90",
       "tls": {
         "enabled": true,
-        "server_name": "www.terredeshommes.nl",
+        "server_name": "drhystuichdfy.samanidempire.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -45,7 +45,7 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1280,
       "domain_strategy": "prefer_ipv4",
-      "reserved": [A, A, A]
+      "reserved": [0, 0, 0]
     },
     {
       "type": "tuic",
