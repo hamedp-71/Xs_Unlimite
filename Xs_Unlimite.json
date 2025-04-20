@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "hamedp71 ShadowSocks2022",
+      "tag": "hamedp71 - ShadowSocks",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 33710,
       "method": "2022-blake3-aes-256-gcm",
@@ -23,7 +23,7 @@
     },
     {
       "type": "tuic",
-      "tag": "hamedp71-TUIC",
+      "tag": "hamedp71 - TUIC",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 41053,
       "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
@@ -40,7 +40,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hamedp71-Hysteria2",
+      "tag": "hamedp71 - Hysteria2",
       "server": "drhystuichdfy.samanidempire.org",
       "server_port": 20335,
       "up_mbps": 100,
@@ -60,8 +60,8 @@
     },
     {
       "type": "vless",
-      "tag": "1 - VLESS F - Domain : 443",
-      "server": "openai.com",
+      "tag": "hamedp71 - VLESS",
+      "server": "speedtest.net",
       "server_port": 443,
       "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
       "domain_strategy": "ipv4_only",
