@@ -58,32 +58,6 @@
         "disable_sni": false
       }
     },
-    {
-      "type": "vless",
-      "tag": "hamedp71 - VLESS",
-      "server": "speedtest.net",
-      "server_port": 443,
-      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
-      "domain_strategy": "ipv4_only",
-      "tls": {
-        "enabled": true,
-        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-        "alpn": ["h2", "http/1.1"],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
     }
   ]
 }
