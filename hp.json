@@ -22,13 +22,13 @@
     {
       "type": "shadowtls",
       "tag": "hamedp71-shadowtls-out",
-      "server": "drhystuichdfy.samanidempire.org",
+      "server": "hys10.afsharidempire.uk",
       "server_port": 443,
       "version": 3,
-      "password": "21c71474-cf55-4be8-a76b-49fe00697c90",
+      "password": "1bd9d418-335e-42f0-a83c-257f3917d773",
       "tls": {
         "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
